@@ -1,0 +1,91 @@
+<!-- 6.Write a javascript Program to perform a swapping of two variables.(all function use) -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        //TAKE NOTHING RETUEN NOTHING
+        // var Num1 = parseInt(prompt("Enter the first number:"));
+        // var Num2 = parseInt(prompt("Enter the second number:"));
+
+        // function num() {
+        //     var Swap = Num1;
+        //     Num1 = Num2;
+        //     Num2 = Swap;
+        // }
+        // document.write("values: Num1 = ", Num1, ",<br> Num2 = ", Num2);
+        // document.write(`<br>`)
+        // document.write(`<br>`)
+        // num();
+        // document.write("Swapped values:-   Num1 = ", Num1, ",<br> Number2 = ", Number2);
+
+
+         //TAKE SOMETHING RETURN NOTHING 
+        // function TSRN(Num01, Num02) {
+        //     var swap = Num01;
+        //     Num01 = Num02;
+        //     Num02 = swap;
+        //     document.write("Swapped values: Num1 =", Num01, ", Num2 =", Num02);
+        // }
+        // var Num1 = parseInt(prompt("Enter the first number:"));
+        // var Num2 = parseInt(prompt("Enter the second number:"));
+
+        // document.write("values: Num1 =", Num1, ", Num2 =", Num2);
+
+        // document.write(`<br>`)
+        // TSRN(Num1, Num2);
+
+
+
+        //TAKE NOTHING RETURN SOMETHING 
+        // function num() {
+        //     var Number1 = parseInt(prompt("Enter the first number:"));
+        //     var Number2 = parseInt(prompt("Enter the second number:"));
+
+        //     var Swap = Number1;
+        //     Number1 = Number2;
+        //     Number2 = Swap;
+
+        //     return [Number1, Number2];
+        // }
+
+        // var swappedValues = num();
+
+        // document.write("values:  Number1 =", swappedValues[0], ", Number2 =", swappedValues[1]);
+        // document.write(`<br>`)
+        // document.write(`<br>`)
+        // document.write("Swapped values:-  Number1 =", swappedValues[1], ", Number2 =", swappedValues[0]);
+
+
+        //TAKE SOMETHING RETURN  SOMETHING
+        function num(Num01, Num02) {
+
+            var Swap = Num01;
+            Num01 = Num02;
+            Num02 = Swap;
+
+            return [Num01, Num02];
+        }
+
+        var Number1 = parseInt(prompt("Enter the first number:"));
+        var Number2 = parseInt(prompt("Enter the second number:"));
+
+        document.write("values: Number1 =", Number1, ", Number2 =", Number2);
+        document.write(`<br>`)
+        document.write(`<br>`)
+
+        var swappedValues = num(Number1, Number2);
+
+        document.write("Swapped values: Number1 =", swappedValues[0], ", Number2 =", swappedValues[1]);
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!-- 10.Write a JavaScript program to decide that you eligible for voting? (using all function) -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        //  TAKE NOTHING RETURN NOTHING 
+        // function Eligiblitybytnrn() {
+        //     var age = parseInt(prompt(`Enter any age :- `));
+        //     document.write(`<h3>Age = ${age}</h3>`);
+        //     if (age >= 18) {
+        //         document.write(`<h3>You are eligible for vote....</h3>`);
+        //     }
+        //     else {
+        //         document.write(`<h3>You are not eligible for vote....</h3>`);
+        //     }
+        // }
+
+
+        // TAKE SOMETHING RETURN NOTHING 
+
+        // function Eligiblitybytsrn(age) {
+        //     document.write(`<h3>Age => ${age}</h3>`);
+        //     if (age >= 18) {
+        //         document.write(`<h3>You are eligible to vote....</h3>`);
+        //     }
+        //     else {
+        //         document.write(`<h3>You are not eligible to vote....</h3>`);
+        //     }
+        // }
+
+
+    //    TAKE NOTHING RETURN SOMETHING
+
+        // function Eligiblitybytnrs() {
+        //     var age = parseInt(prompt(`Enter age :- `));
+        //     document.write(`<h3>Age => ${age}</h3>`);
+        //     if (age >= 18) {
+        //         return "<h3>You are eligible to vote....</h3>";
+        //     }
+        //     else {
+        //         return "<h3>You are not eligible to vote....</h3>";
+        //     }
+        // }
+
+        
+        // TAKE SOMETHING RETURN SOMETHING 
+
+        function Eligiblitybytsrs(age) {
+
+
+            document.write(`<h3>Age => ${age}</h3>`);
+            if (age >= 18) {
+                return "<h3>You are eligible to vote....</h3>";
+            }
+            else {
+                return "<h3>You are not eligible to vote....</h3>";
+            }
+        }
+
+        Eligiblitybytnrn();
+
+        var age = parseInt(prompt(`Enter any age :- `));
+        Eligiblitybytsrn(age);
+
+        var result = Eligiblitybytnrs();
+        document.write(`${result}`);
+
+        var age = parseInt(prompt(`Enter age :- `));
+        var validity = Eligiblitybytsrs();
+        document.write(`${validity}`);
+
+    </script>
+
+</body>
+
+</html>

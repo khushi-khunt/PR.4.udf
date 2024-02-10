@@ -1,0 +1,32 @@
+<!-- 2.Write a JavaScript program to check number positive and negetive? (using no return with parameter) -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+
+        function number(no) {
+
+            if (no > 0) {
+                document.write(`<h2>Number is Positive....</h2>`);
+            } else if (no < 0) {
+                document.write(`<h2>Number is Negative....</h2>`);
+            } else if (no == 0) {
+                document.write(`<h2>Number is Neutral....</h2>`);
+            }
+        }
+        
+        var no = parseInt(prompt("Enter any number:-"));
+        number(no);
+    </script>
+
+</body>
+
+</html>

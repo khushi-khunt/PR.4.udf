@@ -1,0 +1,90 @@
+<!-- 9.Write a JavaScript   program to input angles of a triangle and check whether triangle is valid or not.(using all function) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+         //TAKE NOTHING RETURN NOTHING
+        // function threeangle() {
+
+        //     var angle1 = parseInt(prompt("Enter the first angle:"));
+        //     var angle2 = parseInt(prompt("Enter the second angle:"));
+        //     var angle3 = parseInt(prompt("Enter the third angle:"));
+
+        //     if (triangle(angle1, angle2, angle3)) {
+        //        document.write(`<h1>This is a valid triangle...</h1>`);
+        //     } else {
+        //        document.write(`<h1>This is not valid triangle...</h1>`);
+        //     }
+        // }
+        // function triangle(angle1, angle2, angle3) {
+
+        //     return angle1 + angle2 + angle3 === 180;
+        // }
+
+
+        //TAKE SOMETHING RETURN NOTHING:
+        // function triangle(angle1, angle2, angle3) {
+
+        //     if (angle1 + angle2 + angle3 === 180) {
+        //         document.write(`<h1>This is a valid triangle...</h1>`);
+
+        //     } else {
+        //         document.write(`<h1>This is not valid triangle...</h1>`);
+        //     }
+        // }
+        // var angle1 = parseInt(prompt("Enter the first angle:"));
+        // var angle2 = parseInt(prompt("Enter the second angle:"));
+        // var angle3 = parseInt(prompt("Enter the third angle:"));
+        // triangle(angle1, angle2, angle3);
+
+
+        //TAKE NOTHING RETURN SOMETHING
+        // function Triangle(){
+        //      var firstangle = parseInt(prompt(`Enter first angle :`));
+        //      var secondangle = parseInt(prompt(`Enter second angle :`));
+        //      var thirdangle = parseInt(prompt(`Enter third angle :`));
+
+        //      document.write(`<h3>First angle:${firstangle} , second angle:${secondangle} , Third angle : ${thirdangle}</h3>`);
+
+        //      let total = firstangle + secondangle + thirdangle;
+        //      document.write(`Total => ${total} `);
+
+        //      if (total==180) {
+        //           return "Triangle is valid...";
+        //      }
+        //      else{
+        //           return "Triangle is invalid...";
+        //      }
+        // }
+
+
+
+        //TAKE SOMTHING RETURN SOMETHING
+        function threeangle(angle1, angle2, angle3) {
+
+                if (angle1 + angle2 + angle3 === 180) {
+                    document.write(`<h1>This is a valid triangle...</h1>`)
+                } else {
+                    document.write(`<h1>This is not valid triangle...</h1>`)
+                }
+            }
+        function triangle() {
+            var angle1 = parseInt(prompt("Enter the first angle:"));
+            var angle2 = parseInt(prompt("Enter the second angle:"));
+            var angle3 = parseInt(prompt("Enter the third angle:"));
+
+            var result = threeangle(angle1, angle2, angle3);
+        }
+        triangle();
+        threeangle();
+        
+    </script>
+
+</body>
+</html>
